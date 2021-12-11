@@ -1,0 +1,181 @@
+/* general elements */
+body {
+  font-family: 'Archivo Black', sans-serif;
+  text-align: center;
+  color: white;
+}
+
+h1, h2, h3, h4, h5, h6 {
+  line-height: 2;
+}
+
+.h1-1st {
+  position: relative;
+  bottom: 60px;
+
+}
+.h1-2{
+  padding: 2.5% 0 0;
+  color: #C8C6A7;
+}
+.h3 {
+  font-size: 2.2rem;
+  line-height: 1.5;
+}
+
+p {
+  color: #C4B6B6;
+}
+
+.container-fluid {
+  padding: 5% 9%;
+}
+
+#home .container-fluid {
+  padding: 3% 9%
+}
+
+.carousel-control-prev-icon, .carousel-control-next-icon {
+  height: 100px;
+  width: 100px;
+  outline: black;
+  background-color: black;
+  background-size: 30%, 30%;
+  border-radius: 50%;
+  border: 2px solid white;
+}
+
+/* dsdsd */
+.navbar-brand {
+  font-size: 2.5rem;
+
+}
+
+.navbar {
+  padding: 0 0 1.5rem;
+}
+
+.nav-item {
+  padding: 0 80px;
+}
+
+.nav-link {
+  font-size: 1.4rem;
+
+  color: #9A0680;
+}
+
+.navbar-coustum {
+  position: relative;
+  right: 11%;
+}
+
+.h1-title {
+  font-size: 3.2rem;
+}
+
+.Download-button {
+  margin: 5% 3% 5% 0;
+}
+
+.carousel-indicators li {
+  background-color: black;
+}
+
+#education .carousel-indicators li {
+  background-color: white;
+}
+
+#exp .carousel-indicators li {
+  background-color: white;
+}
+
+/* Title  */
+#home {}
+
+@media (max-width:2028px) {
+  #home {
+    text-align: center;
+  }
+
+  .home-image {
+    padding: 0 0 3%;
+    width: 25%;
+  }
+}
+
+.artist {
+  font-family: 'Permanent Marker', cursive;
+}
+
+.red {
+  color: #FF0075;
+}
+
+.blue {
+  color: #0F00FF
+}
+
+.purple {
+  color: #B000B9;
+}
+
+/* features section */
+#info {
+  ;
+  height: 450px;
+}
+
+.images-info {
+  width: 45%;
+  padding: 4%;
+}
+
+.V-E {
+  margin-top: 3%;
+}
+
+/* testimonials section */
+#education {
+  padding: 2% 0;
+  height: 450px;
+}
+
+.p-margin {
+  margin: 2% 0 5%;
+}
+
+.testimonial-image {
+  width: 10%;
+  border-radius: 100%;
+}
+
+/* skills */
+/* press siction */
+/* footer siction */
+#footer .container-fluid {
+  padding: 1% 5%
+}
+
+.f-icon {
+  margin: 20px 50px;
+
+}
+
+h2  {
+  margin:0;
+}
+.icons{
+  font-size:2rem;
+
+}
+
+#home, #education, #exp, #footer {
+  background-color: #040303;
+
+}
+
+#info, #skills, #Contact {
+  background-color: #7B113A;
+
+}
