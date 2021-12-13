@@ -5,35 +5,40 @@ body {
   color: white;
 }
 
+#home, #education, #exp, #footer {
+  background-color: #040303;
+
+}
+
+#info, #skills, #Contact {
+  background-color: #7B113A;
+
+}
+
 h1, h2, h3, h4, h5, h6 {
   line-height: 2;
 }
 
-.h1-1st {
-  position: relative;
-  bottom: 60px;
-
-}
 .h1-2{
   padding: 2.5% 0 0;
   color: #C8C6A7;
 }
 .h3 {
   font-size: 2.2rem;
-  line-height: 1.5;
+  line-height: 2;
 }
 
 p {
   color: #C4B6B6;
+  line-height: 1.5
 }
 
 .container-fluid {
   padding: 5% 9%;
 }
+/* ............................................................................................................................................ */
 
-#home .container-fluid {
-  padding: 3% 9%
-}
+/* carousel */
 
 .carousel-control-prev-icon, .carousel-control-next-icon {
   height: 100px;
@@ -45,11 +50,23 @@ p {
   border: 2px solid white;
 }
 
-/* dsdsd */
-.navbar-brand {
-  font-size: 2.5rem;
-
+.carousel-indicators li {
+  background-color: black;
 }
+
+#education .carousel-indicators li {
+  background-color: white;
+}
+
+#exp .carousel-indicators li {
+  background-color: white;
+}
+
+/* >>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>> */
+
+
+
+/* navbar */
 
 .navbar {
   padding: 0 0 1.5rem;
@@ -67,42 +84,40 @@ p {
 
 .navbar-coustum {
   position: relative;
-  right: 11%;
+  right:11%;
+  top:20px ;
+
+
 }
 
-.h1-title {
-  font-size: 3.2rem;
+/* <<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<< */
+
+
+
+/* home  */
+
+
+#home {
+
+
 }
 
-.Download-button {
-  margin: 5% 3% 5% 0;
+  .h1-1st {
+    position: relative;
+  bottom: 80px;
 }
+  .home-image{
+      width:30%;
+      padding: 0 0 2%;
 
-.carousel-indicators li {
-  background-color: black;
-}
-
-#education .carousel-indicators li {
-  background-color: white;
-}
-
-#exp .carousel-indicators li {
-  background-color: white;
-}
-
-/* Title  */
-#home {}
-
-@media (max-width:2028px) {
-  #home {
-    text-align: center;
   }
-
-  .home-image {
-    padding: 0 0 3%;
-    width: 25%;
+  .home-div{
+    position: relative;
+    bottom: 30px;
   }
-}
+  #home .container-fluid {
+      padding: 1% 9%
+  }
 
 .artist {
   font-family: 'Permanent Marker', cursive;
@@ -119,11 +134,14 @@ p {
 .purple {
   color: #B000B9;
 }
+/* <<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<< */
 
-/* features section */
+
+/*  info section */
+
+
 #info {
-  ;
-  height: 450px;
+
 }
 
 .images-info {
@@ -138,20 +156,23 @@ p {
 /* testimonials section */
 #education {
   padding: 2% 0;
-  height: 450px;
+
 }
 
 .p-margin {
   margin: 2% 0 5%;
 }
 
-.testimonial-image {
-  width: 10%;
-  border-radius: 100%;
-}
 
 /* skills */
-/* press siction */
+
+
+
+
+
+
+
+
 /* footer siction */
 #footer .container-fluid {
   padding: 1% 5%
@@ -170,12 +191,34 @@ h2  {
 
 }
 
-#home, #education, #exp, #footer {
-  background-color: #040303;
+/* <<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<< */
+
+/* @ media */
+@media (max-width:754px) {
+
+
+  .h1-title {
+    font-size: 2rem;
+    line-height: 2;
+  }
+  .h1-1st {
+    position: relative;
+  top:10px;
+}
+.home-div{
+  position: relative;
+top: 40px;
+padding-bottom: 10%;
+}
+
+  .home-image {
+
+    width: 45%;
+  }
+
+  .container-fluid {
+    padding: 5% 20%;
+  }
 
 }
 
-#info, #skills, #Contact {
-  background-color: #7B113A;
-
-}
