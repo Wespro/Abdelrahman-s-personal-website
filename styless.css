@@ -16,6 +16,7 @@ body {
 }
 
 h1, h2, h3, h4, h5, h6 {
+
   line-height: 2;
 }
 
@@ -79,21 +80,21 @@ p {
 
 .nav-link {
   font-size: 1.4rem;
-font-family: 'Ultra', serif;
+  font-family: 'Ultra', serif;
+
+
   color: #9A0680;
 }
 
 .navbar-coustum {
   position: relative;
-  right:11%;
+  right:15%;
   top:20px ;
 
 
 }
 
 /* <<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<< */
-
-
 
 /* home  */
 
@@ -114,7 +115,7 @@ font-family: 'Ultra', serif;
   }
   .home-div{
     position: relative;
-    bottom: 60px;
+    bottom:60px;
   }
   #home .container-fluid {
       padding: 1% 9%
@@ -156,7 +157,7 @@ font-family: 'Ultra', serif;
 
 /* testimonials section */
 #education {
-  padding: 2% 0;
+
 
 }
 
@@ -170,19 +171,12 @@ font-family: 'Ultra', serif;
 
 
 
-
-
-
-
 /* footer siction */
 #footer .container-fluid {
   padding: 1% 5%
 }
 
-.f-icon {
-  margin: 20px 50px;
 
-}
 
 h2  {
   margin:0;
@@ -212,14 +206,14 @@ top: 20px;
 padding-bottom: 10%;
 }
 
-  .home-image {
+ .home-image {
 
     width: 70%;
   }
 
-  .container-fluid {
-    padding: 5% 20%;
+  .images-info {
+    width: 30%;
+    padding: 4%;
   }
-
 }
 
